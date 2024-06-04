@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Objet.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Objet.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _OBJET</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _OBJET</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Position.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classObjet.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classObjet.html">Objet</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classObjet.html#a29c065a1ababc19dcbe405c6e24b59fa">   13</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObjet.html#a29c065a1ababc19dcbe405c6e24b59fa">type</a>; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classObjet.html#a8da62b0ea3aa057e157f334ea58555fb">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObjet.html#a8da62b0ea3aa057e157f334ea58555fb">typeSecondaire</a>; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classObjet.html#ab60dfc7f4179bf346a24ba4abdb4c1bd">   17</a></span>&#160;    <a class="code" href="classPosition.html">Position</a> <a class="code" href="classObjet.html#ab60dfc7f4179bf346a24ba4abdb4c1bd">position</a>; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classObjet.html#aefdd826d50085897e4894ffef4597d04">Objet</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classObjet.html#a8d9fa6fa05b9f5a99ab60d08f6b558ee">~Objet</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classObjet.html#af53152f336b4b881455e78f151e51597">setType</a> (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> t);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObjet.html#a461ee89159cad34ef6a15e643b70f266">getType</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classObjet.html#a164a05643ddddc2f4381ca25e9f7a532">setTypeSecondaire</a> (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> t);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObjet.html#a101dd1b15700b94589188ed146d8e121">getTypeSecondaire</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassObjet_html"><div class="ttname"><a href="classObjet.html">Objet</a></div><div class="ttdoc">classe Objet</div><div class="ttdef"><b>Definition:</b> Objet.h:11</div></div>
+<div class="ttc" id="aclassObjet_html_a101dd1b15700b94589188ed146d8e121"><div class="ttname"><a href="classObjet.html#a101dd1b15700b94589188ed146d8e121">Objet::getTypeSecondaire</a></div><div class="ttdeci">unsigned int getTypeSecondaire() const</div><div class="ttdoc">accesseur de typeSecondaire</div><div class="ttdef"><b>Definition:</b> Objet.cpp:31</div></div>
+<div class="ttc" id="aclassObjet_html_a164a05643ddddc2f4381ca25e9f7a532"><div class="ttname"><a href="classObjet.html#a164a05643ddddc2f4381ca25e9f7a532">Objet::setTypeSecondaire</a></div><div class="ttdeci">void setTypeSecondaire(const unsigned int t)</div><div class="ttdoc">mutateur de typeSecondaire</div><div class="ttdef"><b>Definition:</b> Objet.cpp:26</div></div>
+<div class="ttc" id="aclassObjet_html_a29c065a1ababc19dcbe405c6e24b59fa"><div class="ttname"><a href="classObjet.html#a29c065a1ababc19dcbe405c6e24b59fa">Objet::type</a></div><div class="ttdeci">unsigned int type</div><div class="ttdoc">definit le type de l'objet (bonus, piece, obstacle)</div><div class="ttdef"><b>Definition:</b> Objet.h:13</div></div>
+<div class="ttc" id="aclassObjet_html_a461ee89159cad34ef6a15e643b70f266"><div class="ttname"><a href="classObjet.html#a461ee89159cad34ef6a15e643b70f266">Objet::getType</a></div><div class="ttdeci">unsigned int getType() const</div><div class="ttdoc">accesseur de type</div><div class="ttdef"><b>Definition:</b> Objet.cpp:21</div></div>
+<div class="ttc" id="aclassObjet_html_a8d9fa6fa05b9f5a99ab60d08f6b558ee"><div class="ttname"><a href="classObjet.html#a8d9fa6fa05b9f5a99ab60d08f6b558ee">Objet::~Objet</a></div><div class="ttdeci">~Objet()</div><div class="ttdoc">destructeur de Objet</div><div class="ttdef"><b>Definition:</b> Objet.cpp:10</div></div>
+<div class="ttc" id="aclassObjet_html_a8da62b0ea3aa057e157f334ea58555fb"><div class="ttname"><a href="classObjet.html#a8da62b0ea3aa057e157f334ea58555fb">Objet::typeSecondaire</a></div><div class="ttdeci">unsigned int typeSecondaire</div><div class="ttdoc">definit le sous type de l'objet (bonus d'invincibilité, arbre, rocher)</div><div class="ttdef"><b>Definition:</b> Objet.h:14</div></div>
+<div class="ttc" id="aclassObjet_html_ab60dfc7f4179bf346a24ba4abdb4c1bd"><div class="ttname"><a href="classObjet.html#ab60dfc7f4179bf346a24ba4abdb4c1bd">Objet::position</a></div><div class="ttdeci">Position position</div><div class="ttdoc">definit la position de l'objet</div><div class="ttdef"><b>Definition:</b> Objet.h:17</div></div>
+<div class="ttc" id="aclassObjet_html_aefdd826d50085897e4894ffef4597d04"><div class="ttname"><a href="classObjet.html#aefdd826d50085897e4894ffef4597d04">Objet::Objet</a></div><div class="ttdeci">Objet()</div><div class="ttdoc">constructeur de Objet</div><div class="ttdef"><b>Definition:</b> Objet.cpp:3</div></div>
+<div class="ttc" id="aclassObjet_html_af53152f336b4b881455e78f151e51597"><div class="ttname"><a href="classObjet.html#af53152f336b4b881455e78f151e51597">Objet::setType</a></div><div class="ttdeci">void setType(const unsigned int t)</div><div class="ttdoc">mutateur de type</div><div class="ttdef"><b>Definition:</b> Objet.cpp:16</div></div>
+<div class="ttc" id="aclassPosition_html"><div class="ttname"><a href="classPosition.html">Position</a></div><div class="ttdoc">classe Position</div><div class="ttdef"><b>Definition:</b> Position.h:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

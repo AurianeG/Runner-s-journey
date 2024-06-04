@@ -1,0 +1,4 @@
+NB 2
+0 Foret Prix 0
+1 Ville Prix 400 
+

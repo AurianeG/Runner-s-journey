@@ -1,0 +1,4 @@
+NB 3
+0 Invincibilité 5
+1 Aimant 10
+2 Vitesse 7

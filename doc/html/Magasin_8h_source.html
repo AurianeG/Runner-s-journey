@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Magasin.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Magasin.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _MAGASIN</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _MAGASIN</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Article.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMagasin.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMagasin.html">Magasin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMagasin.html#a1968d9df8bb80bc8489ed43131f1c791">   13</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classMagasin.html#a1968d9df8bb80bc8489ed43131f1c791">nbCostumes</a>; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMagasin.html#a7e8f97dc8c8634b8fbb45e3ef1e9425b">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classMagasin.html#a7e8f97dc8c8634b8fbb45e3ef1e9425b">nbDecors</a>; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMagasin.html#a49247db180013b3beef74229debec3f3">chargerCostumes</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMagasin.html#a239636206c2185b654d66175f52ad9db">chargerDecors</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMagasin.html#ac4181da1d75dda07a788882a70e4ae7e">   29</a></span>&#160;    <a class="code" href="classArticle.html">Article</a> * <a class="code" href="classMagasin.html#ac4181da1d75dda07a788882a70e4ae7e">costumes</a>; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classMagasin.html#a0dfd0981746529ef622bafb140014ab3">   30</a></span>&#160;    <a class="code" href="classArticle.html">Article</a> * <a class="code" href="classMagasin.html#a0dfd0981746529ef622bafb140014ab3">decors</a>; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classMagasin.html#ada3fbe3325ab1965d331747c940f225b">   31</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classMagasin.html#ada3fbe3325ab1965d331747c940f225b">pieces</a>; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classMagasin.html#adff8c3741822da24e457d5132de068da">Magasin</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="classMagasin.html#a46de45939179cce299b2bc0e0dc56be0">~Magasin</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMagasin.html#aed5fcdbad1ded355b9fb3789f77af8ca">acheterArticle</a>(<a class="code" href="classArticle.html">Article</a> &amp; article);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classMagasin.html#ac0c7bf27de77d9f551588cdd5c19e086">getNbCostumes</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classMagasin.html#a48d8b235c2b8d6e6ac859350683cd12a">getNbDecors</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMagasin.html#a9d32a80404fd50dd9a8721db4c59d8ec">testRegression</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassArticle_html"><div class="ttname"><a href="classArticle.html">Article</a></div><div class="ttdoc">classe Article</div><div class="ttdef"><b>Definition:</b> Article.h:12</div></div>
+<div class="ttc" id="aclassMagasin_html"><div class="ttname"><a href="classMagasin.html">Magasin</a></div><div class="ttdoc">classe Magasin</div><div class="ttdef"><b>Definition:</b> Magasin.h:11</div></div>
+<div class="ttc" id="aclassMagasin_html_a0dfd0981746529ef622bafb140014ab3"><div class="ttname"><a href="classMagasin.html#a0dfd0981746529ef622bafb140014ab3">Magasin::decors</a></div><div class="ttdeci">Article * decors</div><div class="ttdoc">defini le tableau de décors</div><div class="ttdef"><b>Definition:</b> Magasin.h:30</div></div>
+<div class="ttc" id="aclassMagasin_html_a1968d9df8bb80bc8489ed43131f1c791"><div class="ttname"><a href="classMagasin.html#a1968d9df8bb80bc8489ed43131f1c791">Magasin::nbCostumes</a></div><div class="ttdeci">unsigned int nbCostumes</div><div class="ttdoc">defini le nombre de costumes</div><div class="ttdef"><b>Definition:</b> Magasin.h:13</div></div>
+<div class="ttc" id="aclassMagasin_html_a239636206c2185b654d66175f52ad9db"><div class="ttname"><a href="classMagasin.html#a239636206c2185b654d66175f52ad9db">Magasin::chargerDecors</a></div><div class="ttdeci">void chargerDecors()</div><div class="ttdoc">chargerDecors: remplit decors à partir d'un fichier texte</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:41</div></div>
+<div class="ttc" id="aclassMagasin_html_a46de45939179cce299b2bc0e0dc56be0"><div class="ttname"><a href="classMagasin.html#a46de45939179cce299b2bc0e0dc56be0">Magasin::~Magasin</a></div><div class="ttdeci">~Magasin()</div><div class="ttdoc">destructeur de Magasin</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:16</div></div>
+<div class="ttc" id="aclassMagasin_html_a48d8b235c2b8d6e6ac859350683cd12a"><div class="ttname"><a href="classMagasin.html#a48d8b235c2b8d6e6ac859350683cd12a">Magasin::getNbDecors</a></div><div class="ttdeci">unsigned int getNbDecors() const</div><div class="ttdoc">accesseur de nbDecors</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:72</div></div>
+<div class="ttc" id="aclassMagasin_html_a49247db180013b3beef74229debec3f3"><div class="ttname"><a href="classMagasin.html#a49247db180013b3beef74229debec3f3">Magasin::chargerCostumes</a></div><div class="ttdeci">void chargerCostumes()</div><div class="ttdoc">chargerCostumes: remplit costumes à partir d'un fichier texte</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:24</div></div>
+<div class="ttc" id="aclassMagasin_html_a7e8f97dc8c8634b8fbb45e3ef1e9425b"><div class="ttname"><a href="classMagasin.html#a7e8f97dc8c8634b8fbb45e3ef1e9425b">Magasin::nbDecors</a></div><div class="ttdeci">unsigned int nbDecors</div><div class="ttdoc">defini le nombre de décors</div><div class="ttdef"><b>Definition:</b> Magasin.h:14</div></div>
+<div class="ttc" id="aclassMagasin_html_a9d32a80404fd50dd9a8721db4c59d8ec"><div class="ttname"><a href="classMagasin.html#a9d32a80404fd50dd9a8721db4c59d8ec">Magasin::testRegression</a></div><div class="ttdeci">void testRegression() const</div><div class="ttdoc">testRegression : teste le bon fonctionnement de la classe</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:77</div></div>
+<div class="ttc" id="aclassMagasin_html_ac0c7bf27de77d9f551588cdd5c19e086"><div class="ttname"><a href="classMagasin.html#ac0c7bf27de77d9f551588cdd5c19e086">Magasin::getNbCostumes</a></div><div class="ttdeci">unsigned int getNbCostumes() const</div><div class="ttdoc">accesseur de nbCostumes</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:67</div></div>
+<div class="ttc" id="aclassMagasin_html_ac4181da1d75dda07a788882a70e4ae7e"><div class="ttname"><a href="classMagasin.html#ac4181da1d75dda07a788882a70e4ae7e">Magasin::costumes</a></div><div class="ttdeci">Article * costumes</div><div class="ttdoc">defini le tableau de costumes</div><div class="ttdef"><b>Definition:</b> Magasin.h:29</div></div>
+<div class="ttc" id="aclassMagasin_html_ada3fbe3325ab1965d331747c940f225b"><div class="ttname"><a href="classMagasin.html#ada3fbe3325ab1965d331747c940f225b">Magasin::pieces</a></div><div class="ttdeci">unsigned int pieces</div><div class="ttdoc">defini le nombre de pièces</div><div class="ttdef"><b>Definition:</b> Magasin.h:31</div></div>
+<div class="ttc" id="aclassMagasin_html_adff8c3741822da24e457d5132de068da"><div class="ttname"><a href="classMagasin.html#adff8c3741822da24e457d5132de068da">Magasin::Magasin</a></div><div class="ttdeci">Magasin()</div><div class="ttdoc">constructeur de Magasin</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:6</div></div>
+<div class="ttc" id="aclassMagasin_html_aed5fcdbad1ded355b9fb3789f77af8ca"><div class="ttname"><a href="classMagasin.html#aed5fcdbad1ded355b9fb3789f77af8ca">Magasin::acheterArticle</a></div><div class="ttdeci">void acheterArticle(Article &amp;article)</div><div class="ttdoc">acheterArticle: achète l'article pointé</div><div class="ttdef"><b>Definition:</b> Magasin.cpp:58</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

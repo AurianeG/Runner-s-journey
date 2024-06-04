@@ -1,0 +1,11 @@
+Pièces 3000
+Costume 0
+Décor 0
+NBCostumes 4
+Décontracté 1
+Danseuse 0
+Femme_toupie 0
+Crapaud 0
+NBDecors 2
+Foret 1
+Ville 0

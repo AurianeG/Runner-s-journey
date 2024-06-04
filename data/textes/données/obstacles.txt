@@ -1,0 +1,5 @@
+NB 4
+0 Hauteur 8 Largeur 8
+1 Hauteur 7 Largeur 5
+2 Hauteur 15 Largeur 8
+3 Hauteur 10 Largeur 15

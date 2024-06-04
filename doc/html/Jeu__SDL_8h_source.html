@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Jeu_SDL.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Jeu_SDL.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _JEU_SDL</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _JEU_SDL</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Affichage_SDL.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classJeu__SDL.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classJeu__SDL.html">Jeu_SDL</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classJeu__SDL.html#ab31107d3d4db8f8bf8145f80b7ab1ae1">   13</a></span>&#160;    <a class="code" href="classJeu.html">Jeu</a> <a class="code" href="classJeu__SDL.html#ab31107d3d4db8f8bf8145f80b7ab1ae1">jeu</a>; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classJeu__SDL.html#a55ebf8eefbf20f9b09ee09fec682d69a">   14</a></span>&#160;    <a class="code" href="classAffichage__SDL.html">Affichage_SDL</a> <a class="code" href="classJeu__SDL.html#a55ebf8eefbf20f9b09ee09fec682d69a">affSDL</a>{<a class="code" href="classJeu__SDL.html#ab31107d3d4db8f8bf8145f80b7ab1ae1">jeu</a>}; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classJeu__SDL.html#a5bc4b0256fd26026a47e9d83d56293e7">   15</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classJeu__SDL.html#a5bc4b0256fd26026a47e9d83d56293e7">quitter</a>=0; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span> <a class="code" href="classJeu__SDL.html#a82c82ec255b7ca4518f59206905219a7">getEvenements</a>(<span class="keywordtype">char</span> c[3]);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classJeu__SDL.html#af8792760736939f717e2e281e572e485">evenement</a>(<span class="keywordtype">char</span> &amp; touche, <span class="keywordtype">int</span> &amp; posx, <span class="keywordtype">int</span> &amp; posy);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classJeu__SDL.html#a67ade5fe2b732e61bddc836f8582d414">evenementMenu</a>(<span class="keywordtype">char</span> resultat[3]);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classJeu__SDL.html#a0ac086f088e8bfa02535298e80afaa9e">evenementPartie</a>(<span class="keywordtype">char</span> resultat[3]);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classJeu__SDL.html#a9bca9b9775e9ceaf5bbc04d41809ffe4">evenementMenuStatique</a>(<span class="keywordtype">char</span> resultat[3]);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classJeu__SDL.html#aee55f6def2676ac93141aefa0533cf56">evenementBoutique</a>(<span class="keywordtype">char</span> resultat[3]);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classJeu__SDL.html#a1b0cd067a1b47f0876fab41f16786b5c">lancement</a>();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAffichage__SDL_html"><div class="ttname"><a href="classAffichage__SDL.html">Affichage_SDL</a></div><div class="ttdoc">classe Affichage_SDL</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:15</div></div>
+<div class="ttc" id="aclassJeu__SDL_html"><div class="ttname"><a href="classJeu__SDL.html">Jeu_SDL</a></div><div class="ttdoc">classe Jeu_SDL</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.h:11</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a0ac086f088e8bfa02535298e80afaa9e"><div class="ttname"><a href="classJeu__SDL.html#a0ac086f088e8bfa02535298e80afaa9e">Jeu_SDL::evenementPartie</a></div><div class="ttdeci">void evenementPartie(char resultat[3])</div><div class="ttdoc">evenementJeu : renvoie les information concernant le jeu</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:64</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a1b0cd067a1b47f0876fab41f16786b5c"><div class="ttname"><a href="classJeu__SDL.html#a1b0cd067a1b47f0876fab41f16786b5c">Jeu_SDL::lancement</a></div><div class="ttdeci">void lancement()</div><div class="ttdoc">lancement : lance le jeu</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:131</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a55ebf8eefbf20f9b09ee09fec682d69a"><div class="ttname"><a href="classJeu__SDL.html#a55ebf8eefbf20f9b09ee09fec682d69a">Jeu_SDL::affSDL</a></div><div class="ttdeci">Affichage_SDL affSDL</div><div class="ttdoc">definit l'affichage</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.h:14</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a5bc4b0256fd26026a47e9d83d56293e7"><div class="ttname"><a href="classJeu__SDL.html#a5bc4b0256fd26026a47e9d83d56293e7">Jeu_SDL::quitter</a></div><div class="ttdeci">bool quitter</div><div class="ttdoc">definit si il faut fermer la fenetre SDL</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.h:15</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a67ade5fe2b732e61bddc836f8582d414"><div class="ttname"><a href="classJeu__SDL.html#a67ade5fe2b732e61bddc836f8582d414">Jeu_SDL::evenementMenu</a></div><div class="ttdeci">void evenementMenu(char resultat[3])</div><div class="ttdoc">evenementMenu : renvoie les information concernant le Menu</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:35</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a82c82ec255b7ca4518f59206905219a7"><div class="ttname"><a href="classJeu__SDL.html#a82c82ec255b7ca4518f59206905219a7">Jeu_SDL::getEvenements</a></div><div class="ttdeci">void getEvenements(char c[3])</div><div class="ttdoc">getEvenement: rempli le tableau avec les évenements</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:118</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_a9bca9b9775e9ceaf5bbc04d41809ffe4"><div class="ttname"><a href="classJeu__SDL.html#a9bca9b9775e9ceaf5bbc04d41809ffe4">Jeu_SDL::evenementMenuStatique</a></div><div class="ttdeci">void evenementMenuStatique(char resultat[3])</div><div class="ttdoc">evenementMenuStatique: renvoie les information concernant les menu statiques</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:72</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_ab31107d3d4db8f8bf8145f80b7ab1ae1"><div class="ttname"><a href="classJeu__SDL.html#ab31107d3d4db8f8bf8145f80b7ab1ae1">Jeu_SDL::jeu</a></div><div class="ttdeci">Jeu jeu</div><div class="ttdoc">definit le jeu</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.h:13</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_aee55f6def2676ac93141aefa0533cf56"><div class="ttname"><a href="classJeu__SDL.html#aee55f6def2676ac93141aefa0533cf56">Jeu_SDL::evenementBoutique</a></div><div class="ttdeci">void evenementBoutique(char resultat[3])</div><div class="ttdoc">evenementBoutique: renvoie les information concernant la boutique</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:86</div></div>
+<div class="ttc" id="aclassJeu__SDL_html_af8792760736939f717e2e281e572e485"><div class="ttname"><a href="classJeu__SDL.html#af8792760736939f717e2e281e572e485">Jeu_SDL::evenement</a></div><div class="ttdeci">bool evenement(char &amp;touche, int &amp;posx, int &amp;posy)</div><div class="ttdoc">evenement : renvoie les information concernant la souris et le clavier</div><div class="ttdef"><b>Definition:</b> Jeu_SDL.cpp:3</div></div>
+<div class="ttc" id="aclassJeu_html"><div class="ttname"><a href="classJeu.html">Jeu</a></div><div class="ttdoc">classe Jeu</div><div class="ttdef"><b>Definition:</b> Jeu.h:14</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

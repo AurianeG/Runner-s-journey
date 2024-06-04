@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Statistiques.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Statistiques.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _STATISTIQUES</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _STATISTIQUES</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Scores.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classStatistiques.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classStatistiques.html">Statistiques</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classStatistiques.html#a0ecf6da65ee57451d127f6fcf397ec6e">   13</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classStatistiques.html#a0ecf6da65ee57451d127f6fcf397ec6e">nbScores</a>; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classStatistiques.html#adfdd278c46d6efe44ea6f6a760b2edda">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classStatistiques.html#adfdd278c46d6efe44ea6f6a760b2edda">capacite</a>; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classStatistiques.html#aff0b29707d1c1d3557113b320e11de7a">   17</a></span>&#160;    <a class="code" href="classScores.html">Scores</a> * <a class="code" href="classStatistiques.html#aff0b29707d1c1d3557113b320e11de7a">scoresParties</a>; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classStatistiques.html#a4ecd522328776fb86ba21d6a3dfe8d70">Statistiques</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classStatistiques.html#a0b3904d9f448c4eb3c88074932c25051">~Statistiques</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStatistiques.html#a01861781a6d21263dc2c1d3970382b76">sauvegarder</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStatistiques.html#a3331615a977cf4727b57622106ca552b">charger</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStatistiques.html#a2f48d0d59c89b9b492eb34f382621f91">reinitialiser</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStatistiques.html#a409efe9dcaa1abd539789f363c1af8ae">addScore</a>(<span class="keyword">const</span> <a class="code" href="classScores.html">Scores</a> &amp; score);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="classScores.html">Scores</a> <a class="code" href="classStatistiques.html#a0b4d42aa971aa3a13ff9b0670540cbae">moyenne</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="classScores.html">Scores</a> <a class="code" href="classStatistiques.html#a1f6da45d523169d8c18eb19fc8fc5cc8">max</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="classScores.html">Scores</a> <a class="code" href="classStatistiques.html#a4f1ab8fa85fee49864c971d63910c23e">total</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classStatistiques.html#afc70786ada1445704e1847facbfaf85a">getNbScores</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classStatistiques.html#aa5e879393eea247161f7fc2cf7b58ddd">testRegression</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;};</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassScores_html"><div class="ttname"><a href="classScores.html">Scores</a></div><div class="ttdoc">classe Scores</div><div class="ttdef"><b>Definition:</b> Scores.h:9</div></div>
+<div class="ttc" id="aclassStatistiques_html"><div class="ttname"><a href="classStatistiques.html">Statistiques</a></div><div class="ttdoc">classe Statistiques</div><div class="ttdef"><b>Definition:</b> Statistiques.h:11</div></div>
+<div class="ttc" id="aclassStatistiques_html_a01861781a6d21263dc2c1d3970382b76"><div class="ttname"><a href="classStatistiques.html#a01861781a6d21263dc2c1d3970382b76">Statistiques::sauvegarder</a></div><div class="ttdeci">void sauvegarder() const</div><div class="ttdoc">sauvegarder: sauvegarde le tableau de scores dans un fichier texte</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:21</div></div>
+<div class="ttc" id="aclassStatistiques_html_a0b3904d9f448c4eb3c88074932c25051"><div class="ttname"><a href="classStatistiques.html#a0b3904d9f448c4eb3c88074932c25051">Statistiques::~Statistiques</a></div><div class="ttdeci">~Statistiques()</div><div class="ttdoc">destructeur de Statistiques</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:14</div></div>
+<div class="ttc" id="aclassStatistiques_html_a0b4d42aa971aa3a13ff9b0670540cbae"><div class="ttname"><a href="classStatistiques.html#a0b4d42aa971aa3a13ff9b0670540cbae">Statistiques::moyenne</a></div><div class="ttdeci">Scores moyenne() const</div><div class="ttdoc">moyenne: renvoie le score moyen</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:77</div></div>
+<div class="ttc" id="aclassStatistiques_html_a0ecf6da65ee57451d127f6fcf397ec6e"><div class="ttname"><a href="classStatistiques.html#a0ecf6da65ee57451d127f6fcf397ec6e">Statistiques::nbScores</a></div><div class="ttdeci">unsigned int nbScores</div><div class="ttdoc">definit le nombre de scores dans le tableau de scores</div><div class="ttdef"><b>Definition:</b> Statistiques.h:13</div></div>
+<div class="ttc" id="aclassStatistiques_html_a1f6da45d523169d8c18eb19fc8fc5cc8"><div class="ttname"><a href="classStatistiques.html#a1f6da45d523169d8c18eb19fc8fc5cc8">Statistiques::max</a></div><div class="ttdeci">Scores max() const</div><div class="ttdoc">max: renvoie le score maximal obtenu dans une partie</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:97</div></div>
+<div class="ttc" id="aclassStatistiques_html_a2f48d0d59c89b9b492eb34f382621f91"><div class="ttname"><a href="classStatistiques.html#a2f48d0d59c89b9b492eb34f382621f91">Statistiques::reinitialiser</a></div><div class="ttdeci">void reinitialiser()</div><div class="ttdoc">reinitialiser: Efface les scores</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:48</div></div>
+<div class="ttc" id="aclassStatistiques_html_a3331615a977cf4727b57622106ca552b"><div class="ttname"><a href="classStatistiques.html#a3331615a977cf4727b57622106ca552b">Statistiques::charger</a></div><div class="ttdeci">void charger()</div><div class="ttdoc">charger: charge le tableau de scores à partir d'un fichier texte</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:32</div></div>
+<div class="ttc" id="aclassStatistiques_html_a409efe9dcaa1abd539789f363c1af8ae"><div class="ttname"><a href="classStatistiques.html#a409efe9dcaa1abd539789f363c1af8ae">Statistiques::addScore</a></div><div class="ttdeci">void addScore(const Scores &amp;score)</div><div class="ttdoc">addScore: ajoute un score</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:62</div></div>
+<div class="ttc" id="aclassStatistiques_html_a4ecd522328776fb86ba21d6a3dfe8d70"><div class="ttname"><a href="classStatistiques.html#a4ecd522328776fb86ba21d6a3dfe8d70">Statistiques::Statistiques</a></div><div class="ttdeci">Statistiques()</div><div class="ttdoc">constructeur de Statistiques</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:8</div></div>
+<div class="ttc" id="aclassStatistiques_html_a4f1ab8fa85fee49864c971d63910c23e"><div class="ttname"><a href="classStatistiques.html#a4f1ab8fa85fee49864c971d63910c23e">Statistiques::total</a></div><div class="ttdeci">Scores total() const</div><div class="ttdoc">total: renvoie le score total</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:114</div></div>
+<div class="ttc" id="aclassStatistiques_html_aa5e879393eea247161f7fc2cf7b58ddd"><div class="ttname"><a href="classStatistiques.html#aa5e879393eea247161f7fc2cf7b58ddd">Statistiques::testRegression</a></div><div class="ttdeci">void testRegression() const</div><div class="ttdoc">testRegression: test le bon fonctionnement de la classe</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:131</div></div>
+<div class="ttc" id="aclassStatistiques_html_adfdd278c46d6efe44ea6f6a760b2edda"><div class="ttname"><a href="classStatistiques.html#adfdd278c46d6efe44ea6f6a760b2edda">Statistiques::capacite</a></div><div class="ttdeci">unsigned int capacite</div><div class="ttdoc">definit la taille du tableau de scores</div><div class="ttdef"><b>Definition:</b> Statistiques.h:14</div></div>
+<div class="ttc" id="aclassStatistiques_html_afc70786ada1445704e1847facbfaf85a"><div class="ttname"><a href="classStatistiques.html#afc70786ada1445704e1847facbfaf85a">Statistiques::getNbScores</a></div><div class="ttdeci">unsigned int getNbScores() const</div><div class="ttdoc">accesseur de nbScores</div><div class="ttdef"><b>Definition:</b> Statistiques.cpp:127</div></div>
+<div class="ttc" id="aclassStatistiques_html_aff0b29707d1c1d3557113b320e11de7a"><div class="ttname"><a href="classStatistiques.html#aff0b29707d1c1d3557113b320e11de7a">Statistiques::scoresParties</a></div><div class="ttdeci">Scores * scoresParties</div><div class="ttdoc">definit le tableau des scores précédents</div><div class="ttdef"><b>Definition:</b> Statistiques.h:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

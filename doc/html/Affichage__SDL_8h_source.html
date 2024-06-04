@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Affichage_SDL.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Affichage_SDL.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _AFFICHAGE_SDL</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _AFFICHAGE_SDL</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;SDL2/SDL.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;Affichage_SDL.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;Jeu.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classAffichage__SDL.html">Affichage_SDL</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#acc2e558f0813c73cc66ea61cac06217d">   18</a></span>&#160;SDL_Window * <a class="code" href="classAffichage__SDL.html#acc2e558f0813c73cc66ea61cac06217d">window</a>; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#ac42a0d1dd6c9e931fa5051cc2aa37ef0">   19</a></span>&#160;SDL_Renderer * <a class="code" href="classAffichage__SDL.html#ac42a0d1dd6c9e931fa5051cc2aa37ef0">renderer</a>; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#aca9a62456148257a4b0c01f98fb61b53">   20</a></span>&#160;SDL_Surface * personnages[10][4]; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a9e84afb61677388342e70e53ad79ce9b">   21</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classAffichage__SDL.html#a9e84afb61677388342e70e53ad79ce9b">nbPersonnages</a>; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a9e89988d198ee2b04dd64f8a62d5ff20">   22</a></span>&#160;SDL_Surface * decors[10][5]; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a0c5c12df07b44031fa8412c93d83d94e">   23</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classAffichage__SDL.html#a0c5c12df07b44031fa8412c93d83d94e">nbDecors</a>; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a7bd99014a58728acdbec478f0b521fe4">   24</a></span>&#160;SDL_Surface * menus[10]; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#aeff401ccb1ac438485529de20f72e548">   25</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classAffichage__SDL.html#aeff401ccb1ac438485529de20f72e548">nbMenus</a>; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a525e7036643d0371f716b793eb717380">   26</a></span>&#160;SDL_Surface * boutons[10][2]; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#ae8f6097e5e9de6fda9bfc67cb7113779">   27</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classAffichage__SDL.html#ae8f6097e5e9de6fda9bfc67cb7113779">nbBoutons</a>; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a06a08c6091905fa86bbb7f046358f7f0">   28</a></span>&#160;SDL_Surface * objets[5]; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a805d695791704d41acafecadaa6d8e1d">   29</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classAffichage__SDL.html#a805d695791704d41acafecadaa6d8e1d">nbObjets</a>; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#ab5d9114a31c13be7352fba2e5508bacf">   30</a></span>&#160;SDL_Surface * bonus[10]; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#aa5e42b17b302b89a62ff6b2309ddac68">   31</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classAffichage__SDL.html#aa5e42b17b302b89a62ff6b2309ddac68">nbBonus</a>; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a681c047eab9fa89669c98e37b29bc14b">   32</a></span>&#160;SDL_Surface * chiffres[10]; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> fusion_texte (<span class="keywordtype">char</span> nom [100], <span class="keyword">const</span> <span class="keywordtype">string</span> &amp; src1, <span class="keyword">const</span> <span class="keywordtype">string</span> &amp; src2, <span class="keyword">const</span> <span class="keywordtype">string</span> &amp; img);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> getLongueur(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nombre);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> placer_image (<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu, SDL_Surface * surface, <span class="keyword">const</span> <a class="code" href="classPosition.html">Position</a> &amp;position);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> placer_image (SDL_Surface * surface, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> x, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> y, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> largeur, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> hauteur);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> afficherPartie(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> afficherPersonnage(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> afficherMenu(<span class="keyword">const</span> <span class="keywordtype">char</span> bouton);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span> afficherFond (<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> afficherFin(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu,<span class="keyword">const</span> <span class="keywordtype">char</span> bouton);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">void</span> afficherStatistiques(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu,<span class="keyword">const</span> <span class="keywordtype">char</span> bouton);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">void</span> afficherBoutique(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu,<span class="keyword">const</span> <span class="keywordtype">char</span> bouton[3]);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#ae9170aad865ef0cadff88f4887b1584c">  114</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> TAILLEX=800; </div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classAffichage__SDL.html#a76ae687ad262de477ff6227676688f45">  115</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> TAILLEY=600; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="classAffichage__SDL.html">Affichage_SDL</a>(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    ~<a class="code" href="classAffichage__SDL.html">Affichage_SDL</a>();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordtype">void</span> afficher(<span class="keyword">const</span> <a class="code" href="classJeu.html">Jeu</a> &amp; jeu, <span class="keyword">const</span> <span class="keywordtype">char</span> c[3]);    </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;};</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAffichage__SDL_html"><div class="ttname"><a href="classAffichage__SDL.html">Affichage_SDL</a></div><div class="ttdoc">classe Affichage_SDL</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:15</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_a0c5c12df07b44031fa8412c93d83d94e"><div class="ttname"><a href="classAffichage__SDL.html#a0c5c12df07b44031fa8412c93d83d94e">Affichage_SDL::nbDecors</a></div><div class="ttdeci">unsigned int nbDecors</div><div class="ttdoc">definit le nombre de decors</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:23</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_a805d695791704d41acafecadaa6d8e1d"><div class="ttname"><a href="classAffichage__SDL.html#a805d695791704d41acafecadaa6d8e1d">Affichage_SDL::nbObjets</a></div><div class="ttdeci">unsigned int nbObjets</div><div class="ttdoc">definit le nombre d'objets</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:29</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_a9e84afb61677388342e70e53ad79ce9b"><div class="ttname"><a href="classAffichage__SDL.html#a9e84afb61677388342e70e53ad79ce9b">Affichage_SDL::nbPersonnages</a></div><div class="ttdeci">unsigned int nbPersonnages</div><div class="ttdoc">definit le nombre de personnages</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:21</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_aa5e42b17b302b89a62ff6b2309ddac68"><div class="ttname"><a href="classAffichage__SDL.html#aa5e42b17b302b89a62ff6b2309ddac68">Affichage_SDL::nbBonus</a></div><div class="ttdeci">unsigned int nbBonus</div><div class="ttdoc">definit le nombre de bonus</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:31</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_ac42a0d1dd6c9e931fa5051cc2aa37ef0"><div class="ttname"><a href="classAffichage__SDL.html#ac42a0d1dd6c9e931fa5051cc2aa37ef0">Affichage_SDL::renderer</a></div><div class="ttdeci">SDL_Renderer * renderer</div><div class="ttdoc">definit le renderer de la fenetre SDL</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:19</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_acc2e558f0813c73cc66ea61cac06217d"><div class="ttname"><a href="classAffichage__SDL.html#acc2e558f0813c73cc66ea61cac06217d">Affichage_SDL::window</a></div><div class="ttdeci">SDL_Window * window</div><div class="ttdoc">definit la fenetre SDL</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:18</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_ae8f6097e5e9de6fda9bfc67cb7113779"><div class="ttname"><a href="classAffichage__SDL.html#ae8f6097e5e9de6fda9bfc67cb7113779">Affichage_SDL::nbBoutons</a></div><div class="ttdeci">unsigned int nbBoutons</div><div class="ttdoc">definit le nombre de boutons</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:27</div></div>
+<div class="ttc" id="aclassAffichage__SDL_html_aeff401ccb1ac438485529de20f72e548"><div class="ttname"><a href="classAffichage__SDL.html#aeff401ccb1ac438485529de20f72e548">Affichage_SDL::nbMenus</a></div><div class="ttdeci">unsigned int nbMenus</div><div class="ttdoc">definit le nombre de menus</div><div class="ttdef"><b>Definition:</b> Affichage_SDL.h:25</div></div>
+<div class="ttc" id="aclassJeu_html"><div class="ttname"><a href="classJeu.html">Jeu</a></div><div class="ttdoc">classe Jeu</div><div class="ttdef"><b>Definition:</b> Jeu.h:14</div></div>
+<div class="ttc" id="aclassPosition_html"><div class="ttname"><a href="classPosition.html">Position</a></div><div class="ttdoc">classe Position</div><div class="ttdef"><b>Definition:</b> Position.h:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

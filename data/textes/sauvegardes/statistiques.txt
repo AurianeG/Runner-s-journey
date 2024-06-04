@@ -1,0 +1,4 @@
+NB 3
+0 Score 10 Distance 114 Pièces 1 Temps 3.8
+1 Score 20 Distance 189 Pièces 2 Temps 6.3
+2 Score 0 Distance 75 Pièces 0 Temps 2.5

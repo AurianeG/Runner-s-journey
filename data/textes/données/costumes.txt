@@ -1,0 +1,5 @@
+NB 4
+0 Décontracté Prix 0
+1 Danseuse Prix 200
+2 Femme_toupie Prix 200
+3 Crapaud Prix 150

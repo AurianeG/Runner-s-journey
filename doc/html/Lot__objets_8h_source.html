@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Lot_objets.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Lot_objets.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _LOT_OBJETS</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _LOT_OBJETS</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Objet.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;Obstacle.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classLot__objets.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classLot__objets.html">Lot_objets</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classLot__objets.html#ae50a9742c1d0ef0cf19d4e9da488feb7">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#ae50a9742c1d0ef0cf19d4e9da488feb7">nbObjets</a>; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classLot__objets.html#abde2dd306e268ccbda2c22f0752bf312">   15</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#abde2dd306e268ccbda2c22f0752bf312">capacite</a>; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classLot__objets.html#a0b4832c559c8fc88a423ff1fed6dcc81">   16</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#a0b4832c559c8fc88a423ff1fed6dcc81">nbObstacles</a>; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classLot__objets.html#a1650b6fb9833284d73f245a7db2050c4">   17</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#a1650b6fb9833284d73f245a7db2050c4">nbBonus</a>; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLot__objets.html#a61e250aacc317677ca524942707ec32b">chargerObstacles</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLot__objets.html#a9e59c0a398d088ad0d2c43b0e51f4d38">chargerDureeBonus</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classLot__objets.html#a127380fcfe2fe94055fcb1c5c117f35e">   32</a></span>&#160;    <a class="code" href="classObjet.html">Objet</a> * <a class="code" href="classLot__objets.html#a127380fcfe2fe94055fcb1c5c117f35e">objets</a>; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classLot__objets.html#ae6bfd6128309afbb53b5ef4381ea6ed4">   33</a></span>&#160;    <a class="code" href="classObstacle.html">Obstacle</a> * <a class="code" href="classLot__objets.html#ae6bfd6128309afbb53b5ef4381ea6ed4">obstacles</a>; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classLot__objets.html#a1a59bf02606ff380080a02abc438faaa">   34</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * <a class="code" href="classLot__objets.html#a1a59bf02606ff380080a02abc438faaa">dureeBonus</a>; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classLot__objets.html#a00ca97a3dba499e5497cd92321f8eba5">Lot_objets</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="classLot__objets.html#a259e884b0d09d6c1c8576494a3efd642">~Lot_objets</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLot__objets.html#a57f757afb483f819d2ee78ab7fdf747b">initialisation</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLot__objets.html#a57e099f21519107be29228b158812e09">addObjet</a> (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> tp, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> tps);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLot__objets.html#ab66a10aaa90742b86d9062e6477c65ce">delObjet</a> (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> indice);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#a51b17b11df1444e590c097faeaceca43">getNbObstacles</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#a270f73bad0bd52c5d50f80e182e35957">getNbBonus</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classLot__objets.html#a2e0a206260e870916568e940192230a0">getNbObjets</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLot__objets.html#a1a475debe8a67131c86e3cbe48236171">testRegression</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;};</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassLot__objets_html"><div class="ttname"><a href="classLot__objets.html">Lot_objets</a></div><div class="ttdoc">classe Lot_Objets</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:12</div></div>
+<div class="ttc" id="aclassLot__objets_html_a00ca97a3dba499e5497cd92321f8eba5"><div class="ttname"><a href="classLot__objets.html#a00ca97a3dba499e5497cd92321f8eba5">Lot_objets::Lot_objets</a></div><div class="ttdeci">Lot_objets()</div><div class="ttdoc">constructeur de Lot_objets</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:12</div></div>
+<div class="ttc" id="aclassLot__objets_html_a0b4832c559c8fc88a423ff1fed6dcc81"><div class="ttname"><a href="classLot__objets.html#a0b4832c559c8fc88a423ff1fed6dcc81">Lot_objets::nbObstacles</a></div><div class="ttdeci">unsigned int nbObstacles</div><div class="ttdoc">definit le nombre d'obstacle existants</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:16</div></div>
+<div class="ttc" id="aclassLot__objets_html_a127380fcfe2fe94055fcb1c5c117f35e"><div class="ttname"><a href="classLot__objets.html#a127380fcfe2fe94055fcb1c5c117f35e">Lot_objets::objets</a></div><div class="ttdeci">Objet * objets</div><div class="ttdoc">definit le tableau des objets presents sur le terrain</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:32</div></div>
+<div class="ttc" id="aclassLot__objets_html_a1650b6fb9833284d73f245a7db2050c4"><div class="ttname"><a href="classLot__objets.html#a1650b6fb9833284d73f245a7db2050c4">Lot_objets::nbBonus</a></div><div class="ttdeci">unsigned int nbBonus</div><div class="ttdoc">definit le nombre de bonus existants</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:17</div></div>
+<div class="ttc" id="aclassLot__objets_html_a1a475debe8a67131c86e3cbe48236171"><div class="ttname"><a href="classLot__objets.html#a1a475debe8a67131c86e3cbe48236171">Lot_objets::testRegression</a></div><div class="ttdeci">void testRegression() const</div><div class="ttdoc">testRegression : teste le bon fonctionnement de la classe</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:148</div></div>
+<div class="ttc" id="aclassLot__objets_html_a1a59bf02606ff380080a02abc438faaa"><div class="ttname"><a href="classLot__objets.html#a1a59bf02606ff380080a02abc438faaa">Lot_objets::dureeBonus</a></div><div class="ttdeci">unsigned int * dureeBonus</div><div class="ttdoc">definit le tableau des durée des bonus</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:34</div></div>
+<div class="ttc" id="aclassLot__objets_html_a259e884b0d09d6c1c8576494a3efd642"><div class="ttname"><a href="classLot__objets.html#a259e884b0d09d6c1c8576494a3efd642">Lot_objets::~Lot_objets</a></div><div class="ttdeci">~Lot_objets()</div><div class="ttdoc">destructeur de Lot_objets</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:23</div></div>
+<div class="ttc" id="aclassLot__objets_html_a270f73bad0bd52c5d50f80e182e35957"><div class="ttname"><a href="classLot__objets.html#a270f73bad0bd52c5d50f80e182e35957">Lot_objets::getNbBonus</a></div><div class="ttdeci">unsigned int getNbBonus() const</div><div class="ttdoc">accesseur de nbBonus</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:138</div></div>
+<div class="ttc" id="aclassLot__objets_html_a2e0a206260e870916568e940192230a0"><div class="ttname"><a href="classLot__objets.html#a2e0a206260e870916568e940192230a0">Lot_objets::getNbObjets</a></div><div class="ttdeci">unsigned int getNbObjets() const</div><div class="ttdoc">accesseur de nbObjets</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:143</div></div>
+<div class="ttc" id="aclassLot__objets_html_a51b17b11df1444e590c097faeaceca43"><div class="ttname"><a href="classLot__objets.html#a51b17b11df1444e590c097faeaceca43">Lot_objets::getNbObstacles</a></div><div class="ttdeci">unsigned int getNbObstacles() const</div><div class="ttdoc">accesseur de nbObstacles</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:133</div></div>
+<div class="ttc" id="aclassLot__objets_html_a57e099f21519107be29228b158812e09"><div class="ttname"><a href="classLot__objets.html#a57e099f21519107be29228b158812e09">Lot_objets::addObjet</a></div><div class="ttdeci">void addObjet(const unsigned int tp, const unsigned int tps)</div><div class="ttdoc">addObjet : permet d'ajouter un objet au tableau d'objets</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:87</div></div>
+<div class="ttc" id="aclassLot__objets_html_a57f757afb483f819d2ee78ab7fdf747b"><div class="ttname"><a href="classLot__objets.html#a57f757afb483f819d2ee78ab7fdf747b">Lot_objets::initialisation</a></div><div class="ttdeci">void initialisation()</div><div class="ttdoc">initialisation : efface tous les objets</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:78</div></div>
+<div class="ttc" id="aclassLot__objets_html_a61e250aacc317677ca524942707ec32b"><div class="ttname"><a href="classLot__objets.html#a61e250aacc317677ca524942707ec32b">Lot_objets::chargerObstacles</a></div><div class="ttdeci">void chargerObstacles()</div><div class="ttdoc">chargerObstacles : charge les dimensions des obstacles prédéfinis dans un fichier texte vers le table...</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:40</div></div>
+<div class="ttc" id="aclassLot__objets_html_a9e59c0a398d088ad0d2c43b0e51f4d38"><div class="ttname"><a href="classLot__objets.html#a9e59c0a398d088ad0d2c43b0e51f4d38">Lot_objets::chargerDureeBonus</a></div><div class="ttdeci">void chargerDureeBonus()</div><div class="ttdoc">chargerDureeBonus : charge les durées des bonus prédéfinis dans un fichier texte vers le tableau dure...</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:61</div></div>
+<div class="ttc" id="aclassLot__objets_html_ab66a10aaa90742b86d9062e6477c65ce"><div class="ttname"><a href="classLot__objets.html#ab66a10aaa90742b86d9062e6477c65ce">Lot_objets::delObjet</a></div><div class="ttdeci">void delObjet(const unsigned int indice)</div><div class="ttdoc">delObjet : permet de supprimer un objet du tableau d'objets</div><div class="ttdef"><b>Definition:</b> Lot_objets.cpp:125</div></div>
+<div class="ttc" id="aclassLot__objets_html_abde2dd306e268ccbda2c22f0752bf312"><div class="ttname"><a href="classLot__objets.html#abde2dd306e268ccbda2c22f0752bf312">Lot_objets::capacite</a></div><div class="ttdeci">unsigned int capacite</div><div class="ttdoc">definit la capacité d'objets stockables</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:15</div></div>
+<div class="ttc" id="aclassLot__objets_html_ae50a9742c1d0ef0cf19d4e9da488feb7"><div class="ttname"><a href="classLot__objets.html#ae50a9742c1d0ef0cf19d4e9da488feb7">Lot_objets::nbObjets</a></div><div class="ttdeci">unsigned int nbObjets</div><div class="ttdoc">definit le nombre d'objets present sur le terrain</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:14</div></div>
+<div class="ttc" id="aclassLot__objets_html_ae6bfd6128309afbb53b5ef4381ea6ed4"><div class="ttname"><a href="classLot__objets.html#ae6bfd6128309afbb53b5ef4381ea6ed4">Lot_objets::obstacles</a></div><div class="ttdeci">Obstacle * obstacles</div><div class="ttdoc">definit le tableau des dimensions des obstacles</div><div class="ttdef"><b>Definition:</b> Lot_objets.h:33</div></div>
+<div class="ttc" id="aclassObjet_html"><div class="ttname"><a href="classObjet.html">Objet</a></div><div class="ttdoc">classe Objet</div><div class="ttdef"><b>Definition:</b> Objet.h:11</div></div>
+<div class="ttc" id="aclassObstacle_html"><div class="ttname"><a href="classObstacle.html">Obstacle</a></div><div class="ttdoc">classe Obstacle</div><div class="ttdef"><b>Definition:</b> Obstacle.h:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

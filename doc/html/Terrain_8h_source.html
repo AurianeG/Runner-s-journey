@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Runner&#39;s Journey:  Fichier source de include/Terrain.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Runner&#39;s Journey
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Terrain.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef _TERRAIN</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _TERRAIN</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classTerrain.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classTerrain.html">Terrain</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{   </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classTerrain.html#a7209bf87f248fea9225eaf0db48c27d7">   11</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a7209bf87f248fea9225eaf0db48c27d7">dimx</a>; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classTerrain.html#a6e9e368f8ecdfaff0db5ff2d028ccb0b">   12</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a6e9e368f8ecdfaff0db5ff2d028ccb0b">dimy</a>; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classTerrain.html#abbf38f517a3ca5bfeb8b3155cd5c5722">   13</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#abbf38f517a3ca5bfeb8b3155cd5c5722">hauteur</a>; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classTerrain.html#a5559be6418fe8b5757d99da01f4d1150">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a5559be6418fe8b5757d99da01f4d1150">largeur</a>; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classTerrain.html#a0eeb6176bcdda5e7f4187e4f42f56d1e">   15</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a0eeb6176bcdda5e7f4187e4f42f56d1e">decor</a>; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>: </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classTerrain.html#a7160a06ab07a86ed97d23374405e8ef6">Terrain</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="classTerrain.html#a7160a06ab07a86ed97d23374405e8ef6">Terrain</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> dx, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> dy, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> h, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> l);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classTerrain.html#a2f7f0a2aee54886324ccf48a6f321de0">~Terrain</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classTerrain.html#a6800c215dbec654cf65983d499eb0ed3">setDecor</a> (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> dec);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a8fcc8be23f6b9ed94bf6d72e3b0de8f6">getDecor</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a4b18c59183364f86c3c690ab1d3cb9c9">getDimx</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#af72526592f69743a830c3d5937a1552d">getDimy</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a13a3bf4c6dbafa6898feb4ef077d8e65">getHauteur</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain.html#a4f5ca0e94c28c4f309d81a663fe396be">getLargeur</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classTerrain.html#a0368206fd985051d575704e4b4bd41e6">testRegression</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassTerrain_html"><div class="ttname"><a href="classTerrain.html">Terrain</a></div><div class="ttdoc">classe Terrain</div><div class="ttdef"><b>Definition:</b> Terrain.h:9</div></div>
+<div class="ttc" id="aclassTerrain_html_a0368206fd985051d575704e4b4bd41e6"><div class="ttname"><a href="classTerrain.html#a0368206fd985051d575704e4b4bd41e6">Terrain::testRegression</a></div><div class="ttdeci">void testRegression() const</div><div class="ttdoc">test la classe Terrain</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:55</div></div>
+<div class="ttc" id="aclassTerrain_html_a0eeb6176bcdda5e7f4187e4f42f56d1e"><div class="ttname"><a href="classTerrain.html#a0eeb6176bcdda5e7f4187e4f42f56d1e">Terrain::decor</a></div><div class="ttdeci">unsigned int decor</div><div class="ttdoc">definit le numéro du décor</div><div class="ttdef"><b>Definition:</b> Terrain.h:15</div></div>
+<div class="ttc" id="aclassTerrain_html_a13a3bf4c6dbafa6898feb4ef077d8e65"><div class="ttname"><a href="classTerrain.html#a13a3bf4c6dbafa6898feb4ef077d8e65">Terrain::getHauteur</a></div><div class="ttdeci">unsigned int getHauteur() const</div><div class="ttdoc">accesseur de hauteur</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:47</div></div>
+<div class="ttc" id="aclassTerrain_html_a2f7f0a2aee54886324ccf48a6f321de0"><div class="ttname"><a href="classTerrain.html#a2f7f0a2aee54886324ccf48a6f321de0">Terrain::~Terrain</a></div><div class="ttdeci">~Terrain()</div><div class="ttdoc">destructeur de Terrain</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:23</div></div>
+<div class="ttc" id="aclassTerrain_html_a4b18c59183364f86c3c690ab1d3cb9c9"><div class="ttname"><a href="classTerrain.html#a4b18c59183364f86c3c690ab1d3cb9c9">Terrain::getDimx</a></div><div class="ttdeci">unsigned int getDimx() const</div><div class="ttdoc">accesseur de dimx</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:39</div></div>
+<div class="ttc" id="aclassTerrain_html_a4f5ca0e94c28c4f309d81a663fe396be"><div class="ttname"><a href="classTerrain.html#a4f5ca0e94c28c4f309d81a663fe396be">Terrain::getLargeur</a></div><div class="ttdeci">unsigned int getLargeur() const</div><div class="ttdoc">accesseur de largeur</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:51</div></div>
+<div class="ttc" id="aclassTerrain_html_a5559be6418fe8b5757d99da01f4d1150"><div class="ttname"><a href="classTerrain.html#a5559be6418fe8b5757d99da01f4d1150">Terrain::largeur</a></div><div class="ttdeci">unsigned int largeur</div><div class="ttdoc">definit la largeur du terrain dans lequel le personnage peut se deplacer et qui sera afficher</div><div class="ttdef"><b>Definition:</b> Terrain.h:14</div></div>
+<div class="ttc" id="aclassTerrain_html_a6800c215dbec654cf65983d499eb0ed3"><div class="ttname"><a href="classTerrain.html#a6800c215dbec654cf65983d499eb0ed3">Terrain::setDecor</a></div><div class="ttdeci">void setDecor(const unsigned int dec)</div><div class="ttdoc">mutateur de decor</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:30</div></div>
+<div class="ttc" id="aclassTerrain_html_a6e9e368f8ecdfaff0db5ff2d028ccb0b"><div class="ttname"><a href="classTerrain.html#a6e9e368f8ecdfaff0db5ff2d028ccb0b">Terrain::dimy</a></div><div class="ttdeci">unsigned int dimy</div><div class="ttdoc">definit la hauteur du tableau 2D parcours</div><div class="ttdef"><b>Definition:</b> Terrain.h:12</div></div>
+<div class="ttc" id="aclassTerrain_html_a7160a06ab07a86ed97d23374405e8ef6"><div class="ttname"><a href="classTerrain.html#a7160a06ab07a86ed97d23374405e8ef6">Terrain::Terrain</a></div><div class="ttdeci">Terrain()</div><div class="ttdoc">constructeur de Terrain</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:5</div></div>
+<div class="ttc" id="aclassTerrain_html_a7209bf87f248fea9225eaf0db48c27d7"><div class="ttname"><a href="classTerrain.html#a7209bf87f248fea9225eaf0db48c27d7">Terrain::dimx</a></div><div class="ttdeci">unsigned int dimx</div><div class="ttdoc">definit la largeur du tableau 2D parcours</div><div class="ttdef"><b>Definition:</b> Terrain.h:11</div></div>
+<div class="ttc" id="aclassTerrain_html_a8fcc8be23f6b9ed94bf6d72e3b0de8f6"><div class="ttname"><a href="classTerrain.html#a8fcc8be23f6b9ed94bf6d72e3b0de8f6">Terrain::getDecor</a></div><div class="ttdeci">unsigned int getDecor() const</div><div class="ttdoc">accesseur de decor</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:34</div></div>
+<div class="ttc" id="aclassTerrain_html_abbf38f517a3ca5bfeb8b3155cd5c5722"><div class="ttname"><a href="classTerrain.html#abbf38f517a3ca5bfeb8b3155cd5c5722">Terrain::hauteur</a></div><div class="ttdeci">unsigned int hauteur</div><div class="ttdoc">definit la hauteur du terrain dans laquel le personnage peut se deplacer</div><div class="ttdef"><b>Definition:</b> Terrain.h:13</div></div>
+<div class="ttc" id="aclassTerrain_html_af72526592f69743a830c3d5937a1552d"><div class="ttname"><a href="classTerrain.html#af72526592f69743a830c3d5937a1552d">Terrain::getDimy</a></div><div class="ttdeci">unsigned int getDimy() const</div><div class="ttdoc">accesseur de dimy</div><div class="ttdef"><b>Definition:</b> Terrain.cpp:43</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
